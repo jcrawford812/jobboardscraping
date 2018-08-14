@@ -27,6 +27,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="JobBoardScraping\DBcm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="JobBoardScraping\jobscraping.py">
       <SubType>Code</SubType>
     </Compile>
